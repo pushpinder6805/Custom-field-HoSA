@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-# name: discourse-admin-only
+# name: Custom-field-HoSA
 # about: Adds an "Admin Only" checkbox to topics
 # version: 1.0
 # authors: Pushpinder
-# url: https://github.com/pushpinder6805/discourse-admin-only
+# url: https://github.com/pushpinder6805/
 
 enabled_site_setting :topic_custom_field_enabled
 register_asset "stylesheets/common.scss"
