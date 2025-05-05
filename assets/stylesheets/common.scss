@@ -1,0 +1,25 @@
+.topic-custom-field-input {
+  max-width: 100%;
+
+  &.small {
+    width: 150px;
+  }
+
+  &.large {
+    width: 475px;
+  }
+}
+
+.topic-custom-field-textarea {
+  max-width: 100%;
+  width: 465px;
+}
+
+.admin-only-checkbox {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  font-weight: bold;
+}
+
