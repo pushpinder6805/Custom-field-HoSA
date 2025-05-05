@@ -1,16 +1,17 @@
-topic_custom_field_enabled:
-  default: true
-  client: true
-  type: bool
+plugins:
+  topic_custom_field_enabled:
+    default: true
+    client: true
 
-topic_custom_field_name:
-  default: admin_only
-  client: false
-  type: text
+  topic_custom_field_name:
+    default: 'admin_only'
+    client: true
 
-topic_custom_field_type:
-  default: boolean
-  client: false
-  type: enum
-  choices:
-    - boolean
+  topic_custom_field_type:
+    default: 'boolean'
+    type: enum
+    choices:
+      - string
+      - integer
+      - boolean
+      - json
